@@ -48,6 +48,7 @@ class App extends Component {
   }
 
   render() {
+    console.log(this.state.index)
     return (
       <div className="App">
         <header className="App-header">
@@ -68,7 +69,9 @@ class App extends Component {
   _setIndex = (num) => {
     this.setState({
       index: num
-    })
+    }, () => {
+      console.log(num); 
+    });
   }
 }
 

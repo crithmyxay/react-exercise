@@ -24,3 +24,12 @@ body {
   height: 100%;
   border: 1px solid black;
 }
+
+button {
+  border: 1px solid black;
+  background-color: white;
+}
+
+textarea {
+ border: 1px solid black;
+}
